@@ -1,0 +1,46 @@
+url: http://IzaakBeekman.com
+baseurl:
+
+# Site settings
+title: Izaak Beekman
+email: zbeekman@gmail.com
+description: "Izaak Beekman: Aerospace Engineer, Programmer, Data Scientist"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: fed136
+  secondary: fec503
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Izaak Beekman
+  pic: 1
+  position: Ph. D. Aerospace Engineering
+  social:
+    - title: twitter
+      url: www.twitter.com/zbeekman
+    - title: LinkedIn
+      url: www.linkedin.com/zbeekman
+    - title: GitHub
+      url: www.github.com/zbeekman
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/zbeekman
+  - title: github
+    url: http://github.com/zbeekman
+  - title: LinkedIn
+    url: http://linkedin.com/zbeekman
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Izaak Beekman
+  - line: 1245 13th St. NW
+  - line: Apt. 1010
+  - line: Washington DC, 20005
+
+# Build settings
+markdown: kramdown
+permalink: pretty
