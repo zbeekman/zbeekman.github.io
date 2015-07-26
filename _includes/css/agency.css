@@ -283,9 +283,9 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-style: italic;
-    line-height: 22px;
+    line-height: 18px;
 }
 
 header .intro-text .intro-heading {
