@@ -2,7 +2,7 @@ url: http://IzaakBeekman.com
 baseurl:
 
 # Site settings
-title: Welcome
+title: Izaak Beekman
 email: zbeekman@gmail.com
 description: "Izaak Beekman: Aerospace Engineer, Programmer, Data Scientist"
 
@@ -18,21 +18,21 @@ people:
   pic: 1
   position: Ph. D. Aerospace Engineering
   social:
+    - title: linkedin
+      url: www.linkedin.com/zbeekman
+    - title: github
+      url: www.github.com/zbeekman
     - title: twitter
       url: www.twitter.com/zbeekman
-    - title: LinkedIn
-      url: www.linkedin.com/zbeekman
-    - title: GitHub
-      url: www.github.com/zbeekman
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/zbeekman
+  - title: linkedin
+    url: http://linkedin.com/zbeekman
   - title: github
     url: http://github.com/zbeekman
-  - title: LinkedIn
-    url: http://linkedin.com/zbeekman
+  - title: twitter
+    url: http://twitter.com/zbeekman
 
 # Postal address (add as many lines as necessary)
 address:

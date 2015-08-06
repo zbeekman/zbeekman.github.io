@@ -1,8 +1,13 @@
   <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} 2014</span>
+                 <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><!-- <a href="#">Privacy Policy</a> -->
+                        </li>
+                        <li><!-- <a href="#">Terms of Use</a> -->
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -12,13 +17,10 @@
                         {% endfor %}
                     </ul>
                 </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
+		<div class="col-md-4">
+                  <span class="copyright">
+		    Copyright &copy; {{ site.title }} 2014&ndash;{{ 'now' | date: "%Y" }}
+		  </span>
                 </div>
             </div>
         </div>
