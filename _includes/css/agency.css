@@ -119,7 +119,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-    padding: 20px 40px;
+    padding: 0px 40px;
     border-color: #{{ site.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
@@ -281,6 +281,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
+    padding-bottom: 100px;
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 12px;
