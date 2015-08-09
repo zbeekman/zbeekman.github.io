@@ -45,3 +45,10 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# GH-pages supported plugins
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
