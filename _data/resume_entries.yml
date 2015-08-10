@@ -1,0 +1,51 @@
+ - title: Software Engineering Research Consultant, Sourcery Inc.
+   description: >
+                  Research and design an efficient communication scheme
+                  with automatic data dependency tracking for the parallel
+                  solution of nonlinear partial differential equations
+   begin: Jul 2014
+   end:
+   link: http://www.sourceryinstitute.org
+   img: img/about/1.jpg
+   img_alt: Sourcery Institute Tao
+ - title: CRoCCo Lab Faculty Research Assistant
+   description: >
+                  Initialize, run and analyze very large Computational Fluid Dynamics
+                  research simulations of supersonic and hypersonic
+                  turbulent boundary layers, work with <i>massive</i> data sets and
+                  develop parallel, efficient algorithms for huge turbulence
+                  data sets
+   begin: Sep 2014
+   end:
+   link: http://croccolab.umd.edu
+   img: img/about/2.jpg
+   img_alt: UMD Seal
+ - title: Princeton University Doctoral Candidate and Graduate Research Assistant
+   description: >
+                  <b>Anticipated PhD conferral:</b> September 2015 <br/>
+                  <b>Masters Degree:</b> June 2010
+                  Research duties included preparing manuscripts for publication,
+                  giving talks at professional conferences and conducting research
+                  on hypersonic and supersonic turbulent boundary layers, training
+                  new graduate students and managing the lab's transition from
+                  Princeton University to UMD.
+   begin: Sep 2007
+   end:
+   link: http://www.princeton.edu/mae/
+   img: img/about/PU-Shield.jpg
+   img_alt: Princeton Seal
+ - title: The George Washington University
+   description: >
+                  B.S. Mechanical and Aersopace Engineering, mathematics minor,
+                  <i>suma cum laude</i><br/>
+                  <b>2006 Goldwater Scholar</b> and recipient of the
+                  <b>Alfred Martin Freudenthal Prize</b> for the highest academic
+                  acheivement in <a href="http://www.seas.gwu.edu">GWU SEAS</a>.<br/>
+                  Undergraduate research assistant with the Flow Simulations and
+                  Analysis Group which has since <a href="http://engineering.jhu.edu/fsag/">
+                  moved to Johns Hopkins University</a>
+   begin: Sept 2003
+   end: May 2007
+   link: http://www.mae.seas.gwu.edu
+   img: img/about/GW_SEAL.jpg
+   img_alt: GWU Seal
