@@ -540,7 +540,10 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #{{ site.color.primary }};
+    background-color: #fff;
+}
+.timeline>li:hover .timeline-image:hover {
+    border: 7px solid #{{ site.color.nav-bar }}
 }
 
 .timeline>li .timeline-image h4 {
