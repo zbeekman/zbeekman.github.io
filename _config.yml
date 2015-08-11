@@ -1,6 +1,8 @@
 url: http://IzaakBeekman.com
 baseurl:
 
+exclude: [Gemfile]
+
 # Site settings
 title: Izaak Beekman
 email: zbeekman@gmail.com
