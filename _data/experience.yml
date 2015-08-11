@@ -7,7 +7,7 @@
    begin: Jul 2014
    end:
    link: http://www.sourceryinstitute.org
-   img: img/resume/1.jpg
+   img: img/experience/1.jpg
    img_alt: Sourcery Institute Tao
  - institution: University of Maryland
    title: CRoCCo Lab Faculty Research Assistant
@@ -20,7 +20,7 @@
    begin: Sep 2014
    end:
    link: http://croccolab.umd.edu
-   img: img/resume/2.jpg
+   img: img/experience/2.jpg
    img_alt: UMD Seal
  - institution: Princeton University
    title: Doctoral Candidate and Graduate Research Assistant
@@ -35,7 +35,7 @@
    begin: Sep 2007
    end:
    link: http://www.princeton.edu/mae/
-   img: img/resume/PU-Shield.jpg
+   img: img/experience/PU-Shield.jpg
    img_alt: Princeton Seal
  - institution: The George Washington University
    title: B.S. MAE<br/>Undergraduate Research Assistant
@@ -51,5 +51,5 @@
    begin: Sept 2003
    end: May 2007
    link: http://www.mae.seas.gwu.edu
-   img: img/resume/GW_SEAL.jpg
+   img: img/experience/GW_SEAL.jpg
    img_alt: GWU Seal

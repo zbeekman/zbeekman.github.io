@@ -1,5 +1,5 @@
-<!-- Resume Section -->
-    <section id="resume">
+<!-- Experience Section -->
+    <section id="experience">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-lg-12">
                   <ul class="timeline">
-		    {% for item in site.data.resume_entries %}
+		    {% for item in site.data.experience %}
                     {% cycle '<li>','<li class="timeline-inverted">' %}
                       <div class="timeline-image">
                         <a href="{{ item.link | uri_escape }}">
