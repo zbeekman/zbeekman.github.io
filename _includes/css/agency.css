@@ -1,3 +1,4 @@
+{% capture css %}
 /*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -911,3 +912,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
 }
+{% endcapture %}{{ css | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' }}
