@@ -3,12 +3,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Abbreviated Resume</h2>
+                    <h2 class="section-heading">Experience</h2>
                     <h3 class="section-subheading
-			       text-muted">Education and Experience<br/>
-		    <br/>Full
-                    Resume; Downloads: <a href="{{ "/IzaakBeekmanResume.pdf" | prepend: site.baseurl }}"><i class="fa
-                    fa-file-pdf-o"></i></a> <a href="{{ "/IzaakBeekmanResume.docx" | prepend: site.baseurl }}"><i class="fa fa-file-word-o"></i></a></h3>
+			       text-muted">
+                      Resume Downloads:
+		      <a href="{{ "/IzaakBeekmanResume.pdf" | prepend: site.baseurl }}">
+			<i class="fa fa-file-pdf-o"></i>
+		      </a>
+		      <a href="{{ "/IzaakBeekmanResume.docx" | prepend: site.baseurl }}">
+			<i class="fa fa-file-word-o"></i>
+		    </a></h3>
                 </div>
             </div>
             <div class="row">
@@ -25,12 +29,7 @@
                       </div>
                       <div class="timeline-panel">
                         <div class="timeline-heading">
-			  {% if item.end %}
-			  {% capture ending %}{{ item.end | date:"%B %Y" }}{% endcapture %}
-			  {% else %}
-			  {% assign ending = "Present" %}
-			  {% endif %}
-                          <h4>{{ item.begin | date:"%B %Y" }}&ndash;{{ ending }}
+                          <h4>{{ item.institution | escape_once }}
 			  </h4>
                           <h4 class="subheading">{{ item.title | escape_once }}</h4>
                         </div>

@@ -1,4 +1,5 @@
- - title: Software Engineering Research Consultant, Sourcery Inc.
+ - institution: Sourcery, Inc.
+   title: Software Engineering Research Consultant
    description: >
                   Research and design an efficient communication scheme
                   with automatic data dependency tracking for the parallel
@@ -8,7 +9,8 @@
    link: http://www.sourceryinstitute.org
    img: img/resume/1.jpg
    img_alt: Sourcery Institute Tao
- - title: CRoCCo Lab Faculty Research Assistant
+ - institution: University of Maryland
+   title: CRoCCo Lab Faculty Research Assistant
    description: >
                   Initialize, run and analyze very large Computational Fluid Dynamics
                   research simulations of supersonic and hypersonic
@@ -20,7 +22,8 @@
    link: http://croccolab.umd.edu
    img: img/resume/2.jpg
    img_alt: UMD Seal
- - title: Princeton University Doctoral Candidate and Graduate Research Assistant
+ - institution: Princeton University
+   title: Doctoral Candidate and Graduate Research Assistant
    description: >
                   <b>Anticipated PhD conferral:</b> September 2015 <br/>
                   <b>Masters Degree:</b> June 2010 <br/>
@@ -34,7 +37,8 @@
    link: http://www.princeton.edu/mae/
    img: img/resume/PU-Shield.jpg
    img_alt: Princeton Seal
- - title: The George Washington University
+ - institution: The George Washington University
+   title: B.S. MAE<br/>Undergraduate Research Assistant
    description: >
                   B.S. Mechanical and Aersopace Engineering, mathematics minor,
                   <i>suma cum laude</i><br/>
