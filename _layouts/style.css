@@ -1,2 +1,5 @@
-{% include css/bootstrap.min.css %}
-{% include css/agency.css %}
+{% capture css %} /* Minify site css using liquid hack */
+{% include css/bootstrap.min.css %} /* load bootstrap first */
+{% include css/agency.css %} /* now load custom agency theme */
+@import url('http://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700') /* finally fetch google fonts via API */
+{% endcapture %}{{ css | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' }}
