@@ -280,7 +280,7 @@ header {
 
 @media(min-width:768px) {
     header {
-	height: 100vh;
+	min-height: 100vh;
 	text-align: center;
 	color: #fff;
 	background-attachment: scroll;
