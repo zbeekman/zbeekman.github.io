@@ -1,7 +1,7 @@
 url: http://IzaakBeekman.com
 baseurl:
 
-exclude: [Gemfile]
+exclude: [Gemfile, Gemfile.lock]
 
 # Site settings
 title: Izaak Beekman
@@ -13,7 +13,7 @@ color:
   primary: DA4747
   secondary: DE5959
   secondary-dark: "203634"
-  nav-bar: "D5D5D5"
+  nav-bar: "909090"
 
 # Team names, titles and social links
 people:
