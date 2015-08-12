@@ -266,6 +266,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
+    min-height: 100vh;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
