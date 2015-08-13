@@ -1,5 +1,5 @@
-{% capture css %} /* Minify site css using liquid hack */
-{% include css/bootstrap.min.css %} /* load bootstrap first */
-{% include css/agency.css %} /* now load custom agency theme */
+{% capture css %}
+{% include css/bootstrap.min.css %}
+{% include css/agency.min.css %}
 {% include css/font-awesome.min.css %}
 {% endcapture %}{{ css | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' }}

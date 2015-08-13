@@ -10,6 +10,14 @@
     <meta name="google-site-verification"
 	  content="mAbnBmVb9saaf1YudWqyN5qAZ5oVeW7CAc4wZSqrbms" />
 
+    <style>
+      {% capture css %}
+      {% include css/bootstrap.min.css %}
+      {% include css/agency.min.css %}
+      {% include css/font-awesome.min.css %}
+      {% endcapture %}{{ css | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' }}
+    </style>
+
     <!-- Custom favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
@@ -31,7 +39,9 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+    <noscript>
+      <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+    </noscript>
 
     <!-- Custom Fonts, but load these after  -->
     <!-- Moved to _include/css -->
