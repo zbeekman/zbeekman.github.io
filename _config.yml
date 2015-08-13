@@ -48,6 +48,16 @@ address:
 markdown: kramdown
 permalink: pretty
 
+kramdown:
+  input: GFM
+
+
+# Try merging all the css again and use native jekyll/sass minification
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
 # GH-pages supported plugins
 gems:
   - jekyll-mentions
