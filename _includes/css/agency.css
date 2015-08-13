@@ -279,20 +279,34 @@ header {
     -o-background-size: cover;
 }
 
-@media(min-width:768px) {
-    header {
-	min-height: 100vh;
-	text-align: center;
-	color: #fff;
-	background-attachment: scroll;
-	background-image: url(../img/header-bg.jpg);
-	background-position: center center;
-	background-repeat: none;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-    }
+/* ios work arounds */
+
+/**
+ * iPad with portrait orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+  header {
+    min-height: 1024px;
+  }
+}
+
+/**
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  header {
+    min-height: 768px;
+  }
+}
+
+/**
+ * iPhone 5
+ * You can also target devices with aspect ratio.
+ */
+@media screen and (device-aspect-ratio: 40/71) {
+  header {
+    min-height: 500px;
+  }
 }
 
 header .intro-text {
@@ -387,6 +401,34 @@ section h3.section-subheading {
     section {
         padding: 150px 0;
     }
+}
+
+**
+ * iPad with portrait orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait){
+  section {
+    min-height: 1024px;
+  }
+}
+
+/**
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  section {
+    min-height: 768px;
+  }
+}
+
+/**
+ * iPhone 5
+ * You can also target devices with aspect ratio.
+ */
+@media screen and (device-aspect-ratio: 40/71) {
+  section {
+    min-height: 500px;
+  }
 }
 
 .service-heading {
