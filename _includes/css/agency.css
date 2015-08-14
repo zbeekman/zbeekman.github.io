@@ -299,16 +299,6 @@ header {
   }
 }
 
-/**
- * iPhone 5
- * You can also target devices with aspect ratio.
- */
-@media screen and (device-aspect-ratio: 40/71) {
-  header {
-    min-height: 500px;
-  }
-}
-
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -418,16 +408,6 @@ section h3.section-subheading {
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
   section {
     min-height: 768px;
-  }
-}
-
-/**
- * iPhone 5
- * You can also target devices with aspect ratio.
- */
-@media screen and (device-aspect-ratio: 40/71) {
-  section {
-    min-height: 500px;
   }
 }
 
