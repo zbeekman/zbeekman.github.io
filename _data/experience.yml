@@ -1,14 +1,14 @@
- - institution: Sourcery, Inc.
+ - institution: Sourcery Institute
    title: Software Engineering Research Consultant
    description: >
-                  Research and design an efficient communication scheme
+                  Research and design efficient communication schemes
                   with automatic data dependency tracking for the parallel
                   solution of nonlinear partial differential equations
    begin: Jul 2014
    end:
    link: http://www.sourceryinstitute.org
    img: img/experience/1.jpg
-   img_alt: Sourcery Institute Tao
+   img_alt: Sourcery Institute Hat
  - institution: University of Maryland
    title: CRoCCo Lab Faculty Research Assistant
    description: >
