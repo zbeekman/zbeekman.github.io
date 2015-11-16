@@ -1,9 +1,10 @@
  - institution: Sourcery Institute
    title: Software Engineering Research Consultant
    description: >
-                  Synthesize and analyze new, efficient communication schemes
+                  Synthesize and test new, efficient communication patterns
                   with automatic data dependency tracking for the parallel
-                  solution of nonlinear partial differential equations
+                  solution of nonlinear partial differential equations using
+                  Coarray Fortran, a parallel global address space (PGAS) language
    begin: Jul 2014
    end:
    link: http://www.sourceryinstitute.org
@@ -25,7 +26,7 @@
  - institution: Princeton University
    title: Doctoral Candidate and Graduate Research Assistant
    description: >
-                  <b>Anticipated PhD conferral:</b> September 2015 <br/>
+                  <b>Anticipated PhD conferral:</b> January 2016 <br/>
                   <b>Masters Degree:</b> June 2010 <br/>
                   Research duties included preparing manuscripts for publication,
                   giving talks at professional conferences and conducting research
