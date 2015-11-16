@@ -10,10 +10,10 @@ description: "Izaak Beekman: Aerospace Engineer, Programmer, Data Scientist"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: da4747
-  secondary: de5959
+  primary: 2863a6
+  secondary: 259bc8
   secondary-dark: "203634"
-  nav-bar: "909090"
+  nav-bar: "868686"
 
 # Team names, titles and social links
 people:
