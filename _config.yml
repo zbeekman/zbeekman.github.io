@@ -1,4 +1,5 @@
-url: http://IzaakBeekman.com
+url: https://izaakbeekman.com
+enforce_ssl: izaakbeekman.com
 baseurl:
 
 exclude: [Gemfile, Gemfile.lock]
@@ -22,20 +23,20 @@ people:
   position: Ph. D. Aerospace Engineering
   social:
     - title: linkedin
-      url: www.linkedin.com/zbeekman
+      url: https://linkedin.com/zbeekman
     - title: github
-      url: www.github.com/zbeekman
+      url: https://github.com/zbeekman
     - title: twitter
-      url: www.twitter.com/zbeekman
+      url: https://twitter.com/zbeekman
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
-    url: http://linkedin.com/zbeekman
+    url: https://linkedin.com/zbeekman
   - title: github
-    url: http://github.com/zbeekman
+    url: https://github.com/zbeekman
   - title: twitter
-    url: http://twitter.com/zbeekman
+    url: https://twitter.com/zbeekman
 
 # Postal address (add as many lines as necessary)
 address:
