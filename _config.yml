@@ -65,3 +65,15 @@ gems:
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
+
+# jekyll-compress-html
+# https://github.com/penibelst/jekyll-compress-html
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: [html, head, body]
