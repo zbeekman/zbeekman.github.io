@@ -65,6 +65,7 @@ gems:
   - jemoji
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-feed
 
 # jekyll-compress-html
 # https://github.com/penibelst/jekyll-compress-html
