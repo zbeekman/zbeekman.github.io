@@ -19,7 +19,8 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Add atom feed via jekyll plugin -->
-    {% feed_meta %}
+    <!-- { % feed_meta % } --> <!-- there be bugs :bug:-->
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
 
     <!-- Mobile Specific Metas -->
     <meta name="HandheldFriendly" content="True">
@@ -42,7 +43,7 @@
       {% include css/bootstrap.min.css %}
       {% include css/agency.css %}
       {% include css/font-awesome.css %}
-      {% endcapture %}{{ css | scssify | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' }}
+      {% endcapture %}{{ css | strip_newlines | replace:'	','' | replace:'    ','' | replace:'  ',' ' }}
     </style>
 
     <!-- Custom favicon -->
