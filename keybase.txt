@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/zbeekman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://izaakbeekman.com
+  * I am zbeekman (https://keybase.io/zbeekman) on keybase.
+  * I have a public key ASB1BVh7CLa59CfZuosU3ruSnOON1SlbQnN2saQvdEkf2Ao
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01207505587b08b6b9f427d9ba8b14debb929ce38dd5295b427376b1a42f74491fd80a",
+            "host": "keybase.io",
+            "kid": "01207505587b08b6b9f427d9ba8b14debb929ce38dd5295b427376b1a42f74491fd80a",
+            "uid": "9430a84e28a0b8e7a725bdeb696e8019",
+            "username": "zbeekman"
+        },
+        "service": {
+            "hostname": "izaakbeekman.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1485358425,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1485358409,
+        "hash": "0a3c2dc03e8bcd4059c413d63f4d82849f4526555a163ddca29494923792318a6e5d60f5192378672ea1ec1d86d6a3f76d8646e598abc52c09eea9d8d7fd1b7e",
+        "seqno": 816741
+    },
+    "prev": "2511b1a10a946b8b1eb285a39c2d80fcaffce7bd5921ee9d29a9b4a8a6923bf8",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdQVYewi2ufQn2bqLFN67kpzjjdUpW0JzdrGkL3RJH9gKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNzUwNTU4N2IwOGI2YjlmNDI3ZDliYThiMTRkZWJiOTI5Y2UzOGRkNTI5NWI0MjczNzZiMWE0MmY3NDQ5MWZkODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzUwNTU4N2IwOGI2YjlmNDI3ZDliYThiMTRkZWJiOTI5Y2UzOGRkNTI5NWI0MjczNzZiMWE0MmY3NDQ5MWZkODBhIiwidWlkIjoiOTQzMGE4NGUyOGEwYjhlN2E3MjViZGViNjk2ZTgwMTkiLCJ1c2VybmFtZSI6InpiZWVrbWFuIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJpemFha2JlZWttYW4uY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODUzNTg0MjUsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4NTM1ODQwOSwiaGFzaCI6IjBhM2MyZGMwM2U4YmNkNDA1OWM0MTNkNjNmNGQ4Mjg0OWY0NTI2NTU1YTE2M2RkY2EyOTQ5NDkyMzc5MjMxOGE2ZTVkNjBmNTE5MjM3ODY3MmVhMWVjMWQ4NmQ2YTNmNzZkODY0NmU1OThhYmM1MmMwOWVlYTlkOGQ3ZmQxYjdlIiwic2Vxbm8iOjgxNjc0MX0sInByZXYiOiIyNTExYjFhMTBhOTQ2YjhiMWViMjg1YTM5YzJkODBmY2FmZmNlN2JkNTkyMWVlOWQyOWE5YjRhOGE2OTIzYmY4Iiwic2Vxbm8iOjcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAqav1iPxVY4Lp7EpWPz3U2Op2tOFJAQdKhqDdQV3Xc0Nrcir9I/7i72BnCL/2JfHNyjT0wYfTBBfhO93ETV+lDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICRL8Cklyf70zpGwuXF5YdiR5nuIYpxdF17ydNonx4hao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zbeekman
+
+==================================================================
