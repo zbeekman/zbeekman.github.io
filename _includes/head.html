@@ -1,15 +1,4 @@
 <head>
-    {% if site.enforce_ssl %}
-    <!--
-      redirect users to the https version of the website.
-      but: only check when on the production domain, as set in _config.yml.
-    -->
-      <script type="text/javascript">
-        var enforce = "{{ site.enforce_ssl }}";
-        if ((enforce == window.location.host) && (window.location.protocol != "https:"))
-          window.location = window.location.toString().replace(/^http:/, "https:");
-      </script>
-    {% endif %}
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -70,6 +59,18 @@
     <noscript>
       <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
     </noscript>
+
+    {% if site.enforce_ssl %}
+    <!--
+      redirect users to the https version of the website.
+      but: only check when on the production domain, as set in _config.yml.
+    -->
+      <script type="text/javascript">
+        var enforce = "{{ site.enforce_ssl }}";
+        if ((enforce == window.location.host) && (window.location.protocol != "https:"))
+          window.location = window.location.toString().replace(/^http:/, "https:");
+      </script>
+    {% endif %}
 
     <!-- Custom Fonts, but load these after  -->
     <!-- Moved to _include/css -->
